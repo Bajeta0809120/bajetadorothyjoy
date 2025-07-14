@@ -1,23 +1,21 @@
-/* Reset box-sizing for all elements */
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* Body styles for full viewport height and centered content */
 body {
   background-color: #6b3400;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Center vertically */
-  height: 100vh; /* Fill the viewport height */
+  justify-content: center; 
+  height: 100vh;
   margin: 0;
   font-family: 'Arial', sans-serif;
-  overflow: hidden; /* Disable scrollbars */
+  overflow: hidden; 
   padding: 20px;
 }
 
-/* Header styles */
 h1 {
   font-family: 'Times New Roman', Times, serif;
   color: #ffab72;
@@ -26,7 +24,6 @@ h1 {
   font-size: 3rem;
 }
 
-/* Links to other pages */
 a {
   display: inline-block;
   margin-bottom: 20px;
@@ -40,7 +37,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Button styles for main page links */
 a.button {
   background-color: #ffa256;
   color: #fff;
@@ -58,7 +54,6 @@ a.button:hover {
   transform: scale(1.02);
 }
 
-/* Sign In form container */
 .form-container {
   background-color: #fff8e1;
   padding: 40px 30px;
@@ -93,7 +88,6 @@ input[type="password"]:focus {
   box-shadow: 0 0 8px rgba(255, 140, 0, 0.5);
 }
 
-/* Sign In button */
 .sign-in-btn,
 .login-btn {
   width: 100%;
@@ -114,7 +108,6 @@ input[type="password"]:focus {
   transform: scale(1.02);
 }
 
-/* Responsive adjustments */
 @media (max-width: 500px) {
   h1 {
     font-size: 2rem;
@@ -125,7 +118,6 @@ input[type="password"]:focus {
   }
 }
 
-/* Back link style */
 .back-link {
   align-self: flex-start;
   margin-bottom: 20px;
